@@ -7,7 +7,7 @@ const Products = () => {
 
 
     useEffect(() => {
-        fetch(`https://radiant-shelf-15302.herokuapp.com/products`)
+        fetch(`https://best-tools-server-production.up.railway.app/products`)
             .then(res => res.json())
             .then(data => setProducts(data))
 
