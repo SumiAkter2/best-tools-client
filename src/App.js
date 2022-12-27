@@ -1,17 +1,13 @@
-
 import './App.css';
 import Navbar from './Component/Navbar/Navbar';
 import Home from './Component/Home';
 import { Route, Routes } from 'react-router-dom';
 import Blogs from './Component/Blogs';
-
 import LogIn from './Component/LogIn';
-
 import Footer from './Component/Footer';
 import Summary from './Component/Summary';
 import SignIn from './Component/SignIn';
 import RequireAuth from './Component/RequireAuth';
-
 import NotFound from './Component/NotFound';
 import DashBoard from './Component/DashBoard/DashBoard';
 import MyProfile from './Component/DashBoard/MyProfile';
@@ -20,7 +16,7 @@ import AddReview from './Component/DashBoard/AddReview';
 import ProductDetails from './Component/ProductDetails';
 import MyPortfolio from './Component/MyPortfolio';
 import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+// import 'react-toastify/dist/ReactToastify.css';
 import useAdmin from './Hooks/UseAdmin';
 // import AdminProfile from './Component/DashBoard/AdminProfile';
 import ManageAllProducts from './Component/DashBoard/ManageAllProducts';
@@ -34,8 +30,8 @@ function App() {
   const [admin] = useAdmin();
   return (
     <div className="App">
-      <Navbar>
-        <Routes>
+      {/* <Navbar> */}
+        {/* <Routes>
           <Route path='/' element={<Home></Home>}></Route>
           <Route path='blogs' element={<Blogs></Blogs>}></Route>
           <Route path='login' element={<LogIn></LogIn>}></Route>
@@ -65,7 +61,7 @@ function App() {
         </Routes>
         <Footer></Footer>
       </Navbar>
-      <ToastContainer></ToastContainer>
+      <ToastContainer></ToastContainer> */}
     </div>
   );
 }
