@@ -21,7 +21,7 @@ const Home = () => {
       <About></About>
       <Hotdeels></Hotdeels>
       <Arrival></Arrival>
-      {/*    <Subcrib></Subcrib> */}
+         <Subcrib></Subcrib>
     </div>
   );
 };
