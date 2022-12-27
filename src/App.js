@@ -31,19 +31,18 @@ function App() {
     <div className="App">
       <Navbar>
         <Routes>
-          {/*
-          <Route path='/' element={<Home></Home>}></Route>
-          <Route path='blogs' element={<Blogs></Blogs>}></Route>
-          <Route path='login' element={<LogIn></LogIn>}></Route>
-          <Route path='signin' element={<SignIn></SignIn>}></Route>
-          <Route path='myportfolio' element={<MyPortfolio></MyPortfolio>}></Route>
-          <Route path='products/:productId' element={
+          <Route path="/" element={<Home></Home>}></Route>
+          {/* <Route path='blogs' element={<Blogs></Blogs>}></Route> */}
+          {/* <Route path='login' element={<LogIn></LogIn>}></Route> */}
+          {/* <Route path='signin' element={<SignIn></SignIn>}></Route> */}
+          {/* <Route path='myportfolio' element={<MyPortfolio></MyPortfolio>}></Route> */}
+          {/* <Route path='products/:productId' element={
             <RequireAuth>
               <ProductDetails></ProductDetails>
             </RequireAuth>
-          }></Route>
+          }></Route> */}
 
-          <Route path='dashboard' element={<RequireAuth><DashBoard /></RequireAuth>}>
+          {/* <Route path='dashboard' element={<RequireAuth><DashBoard /></RequireAuth>}>
             <Route path='order' element={<MyOrder />}></Route>
             <Route path='manageorder' element={<ManageOrder />}></Route>
             <Route path='allProducts' element={<ManageAllProducts></ManageAllProducts>}></Route>
@@ -55,9 +54,9 @@ function App() {
             <Route path='updateprofile' element={<UpdateProfile></UpdateProfile>}></Route>
             <Route path='review' element={<AddReview></AddReview>}>
             </Route>
-          </Route>
-          <Route path='summary' element={<Summary />}></Route>
-          <Route path='*' element={<NotFound />}></Route>*/}
+          </Route> */}
+          {/* <Route path='summary' element={<Summary />}></Route> */}
+          {/* <Route path='*' element={<NotFound />}></Route> */}
         </Routes>
         <Footer></Footer>
       </Navbar>
