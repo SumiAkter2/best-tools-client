@@ -3,30 +3,32 @@
 
 ## In this project main purpose are:
 
-* A complete online tools manufacturing site including Admin panel which is made by React.Js with Material UI. 
-* Buy different type watches and search by category.
-* User can check their Buying information.
-* User can give reviews and it will also display on homepage. And there also add firebase Authentication.
-* Only admin can make another user admin and it will also verified by JWT (Json Web Token)
-* Admin can control buying information,change status about buying ,also can add more product.
-* To check ADMIN PANEL use 1. email:admin@gmail.com
-                           2. password: 123456
-#Feature:
-- react,
-- react router,
-- react hook forms
-- react query
-- firebase
-- aos
-- mongodb atlas
-- firebase hook 
-- html 
-- css
-- daisy ui
-- react spinner
-- react toastify
-- jwt
+- A complete online tools manufacturing site including Admin panel which is made by React.Js with Material UI.
+- Buy different type watches and search by category.
+- User can check their Buying information.
+- User can give reviews and it will also display on homepage. And there also add firebase Authentication.
+- Only admin can make another user admin and it will also verified by JWT (Json Web Token)
+- Admin can control buying information,change status about buying ,also can add more product.
+- To check ADMIN PANEL use 1. email:admin@gmail.com 2. password: 123456
+  #Feature:
+
+* react,
+* react router,
+* react hook forms
+* react query
+* firebase
+* aos
+* mongodb atlas
+* firebase hook
+* html
+* css
+* daisy ui
+* react spinner
+* react toastify
+* jwt
+
 # Getting Started with Create React App
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
