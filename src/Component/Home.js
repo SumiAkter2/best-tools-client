@@ -13,11 +13,10 @@ import Summary from './Summary';
 
 const Home = () => {
     return (
-        <div>
-
-            <Bannar></Bannar>
-            {/* <Products></Products>
-            <GetReview></GetReview>
+      <div>
+        <Bannar></Bannar>
+        <Products></Products>
+        {/*  <GetReview></GetReview>
             <Reviews></Reviews>
 
             <Summary></Summary>
@@ -25,7 +24,7 @@ const Home = () => {
             <Hotdeels></Hotdeels>
             <Arrival></Arrival>
             <Subcrib></Subcrib> */}
-        </div>
+      </div>
     );
 };
 
