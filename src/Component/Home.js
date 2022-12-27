@@ -20,8 +20,8 @@ const Home = () => {
       <Summary></Summary>
       <About></About>
       <Hotdeels></Hotdeels>
-      {/*  <Arrival></Arrival>
-            <Subcrib></Subcrib> */}
+      <Arrival></Arrival>
+      {/*    <Subcrib></Subcrib> */}
     </div>
   );
 };
