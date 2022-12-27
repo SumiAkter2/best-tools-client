@@ -16,7 +16,7 @@ import AddReview from "./Component/DashBoard/AddReview";
 import ProductDetails from "./Component/ProductDetails";
 import MyPortfolio from "./Component/MyPortfolio";
 import { ToastContainer, toast } from "react-toastify";
-// import 'react-toastify/dist/ReactToastify.css';
+import "react-toastify/dist/ReactToastify.css";
 import useAdmin from "./Hooks/UseAdmin";
 // import AdminProfile from './Component/DashBoard/AdminProfile';
 import ManageAllProducts from "./Component/DashBoard/ManageAllProducts";
@@ -74,8 +74,8 @@ function App() {
             ></Route>
             <Route path="review" element={<AddReview></AddReview>}></Route>
           </Route>
-          <Route path='summary' element={<Summary />}></Route>
-          <Route path='*' element={<NotFound />}></Route>
+          <Route path="summary" element={<Summary />}></Route>
+          <Route path="*" element={<NotFound />}></Route>
         </Routes>
         <Footer></Footer>
       </Navbar>
