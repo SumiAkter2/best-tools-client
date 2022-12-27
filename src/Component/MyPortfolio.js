@@ -2,7 +2,7 @@ import React from "react";
 
 const MyPortfolio = () => {
   return (
-    <div className="text-left my-12 p-3">
+    <div className="text-center my-12 p-3">
       <h1 className="text-4xl font-bold ">My Portfolio</h1>
       <h1 className="">
         My Name: <span>Sumi Akter</span>
@@ -17,11 +17,9 @@ const MyPortfolio = () => {
           <a href="https://the-car-land.web.app/">The Car Land</a>
         </li>
         <li>
-          
           <a href="https://best-tools-co.web.app/">Best tools co</a>
         </li>
         <li>
-          
           <a href="https://hsc-biology.web.app/">Bio Tutor</a>
         </li>
       </h1>
