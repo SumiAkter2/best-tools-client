@@ -16,7 +16,7 @@ const Home = () => {
         <div>
 
             <Bannar></Bannar>
-            <Products></Products>
+            {/* <Products></Products>
             <GetReview></GetReview>
             <Reviews></Reviews>
 
@@ -24,7 +24,7 @@ const Home = () => {
             <About></About>
             <Hotdeels></Hotdeels>
             <Arrival></Arrival>
-            <Subcrib></Subcrib>
+            <Subcrib></Subcrib> */}
         </div>
     );
 };
