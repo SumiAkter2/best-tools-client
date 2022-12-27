@@ -17,9 +17,9 @@ const Home = () => {
       <GetReview></GetReview>
       <Reviews></Reviews>
 
-      {/* <Summary></Summary>
-            <About></About>
-            <Hotdeels></Hotdeels>
+      <Summary></Summary>
+      <About></About>
+      {/* <Hotdeels></Hotdeels>
             <Arrival></Arrival>
             <Subcrib></Subcrib> */}
     </div>
