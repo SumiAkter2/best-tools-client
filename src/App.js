@@ -30,7 +30,7 @@ function App() {
   const [admin] = useAdmin();
   return (
     <div className="App">
-      {/* <Navbar> */}
+      <Navbar>
         {/* <Routes>
           <Route path='/' element={<Home></Home>}></Route>
           <Route path='blogs' element={<Blogs></Blogs>}></Route>
@@ -59,9 +59,9 @@ function App() {
           <Route path='summary' element={<Summary />}></Route>
           <Route path='*' element={<NotFound />}></Route>
         </Routes>
-        <Footer></Footer>
+        <Footer></Footer>*/}
       </Navbar>
-      <ToastContainer></ToastContainer> */}
+      <ToastContainer></ToastContainer> 
     </div>
   );
 }
