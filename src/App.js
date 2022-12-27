@@ -66,7 +66,7 @@ function App() {
               path="addProducts"
               element={<AddProducts></AddProducts>}
             ></Route>
-            <Route path="admin" element={<MakeAdmin></MakeAdmin>}></Route>{" "}
+            <Route path="admin" element={<MakeAdmin></MakeAdmin>}></Route>
             <Route index element={<MyProfile></MyProfile>}></Route>
             <Route
               path="updateprofile"
@@ -74,8 +74,8 @@ function App() {
             ></Route>
             <Route path="review" element={<AddReview></AddReview>}></Route>
           </Route>
-          {/* <Route path='summary' element={<Summary />}></Route> */}
-          {/* <Route path='*' element={<NotFound />}></Route> */}
+          <Route path='summary' element={<Summary />}></Route>
+          <Route path='*' element={<NotFound />}></Route>
         </Routes>
         <Footer></Footer>
       </Navbar>
