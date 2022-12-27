@@ -34,7 +34,7 @@ function App() {
           <Route path="/" element={<Home></Home>}></Route>
           <Route path='blogs' element={<Blogs></Blogs>}></Route>
           <Route path='login' element={<LogIn></LogIn>}></Route>
-          {/* <Route path='signin' element={<SignIn></SignIn>}></Route> */}
+          <Route path='signin' element={<SignIn></SignIn>}></Route>
           {/* <Route path='myportfolio' element={<MyPortfolio></MyPortfolio>}></Route> */}
           {/* <Route path='products/:productId' element={
             <RequireAuth>
