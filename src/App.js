@@ -67,7 +67,7 @@ function App() {
               element={<AddProducts></AddProducts>}
             ></Route>
             <Route path="admin" element={<MakeAdmin></MakeAdmin>}></Route>
-            {/* <Route index element={<MyProfile></MyProfile>}></Route> */}
+            <Route index element={<MyProfile></MyProfile>}></Route>
             <Route
               path="updateprofile"
               element={<UpdateProfile></UpdateProfile>}

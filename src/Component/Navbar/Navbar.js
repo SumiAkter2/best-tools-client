@@ -23,7 +23,7 @@ const Navbar = ({ children }) => {
                 src={b}
                 alt=""
                 className="mr-4"
-              />{" "}
+              />
               Best Tools co.
             </div>
             <div className="flex-none lg:hidden">
