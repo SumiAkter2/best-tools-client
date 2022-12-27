@@ -59,7 +59,7 @@ const Navbar = ({ children }) => {
                 </li>
                 <li>
                   <NavLink className="rounded-lg  my-2" to="/myportfolio">
-                    My Portfolio
+                    Portfolio
                   </NavLink>
                 </li>
 
